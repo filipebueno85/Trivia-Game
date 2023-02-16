@@ -1,0 +1,7 @@
+src/App.test.js
+src/serviceWorker.js 
+cypress/*
+src/tests/*
+coverage/*
+cypress.config.js
+src/styles/global.css

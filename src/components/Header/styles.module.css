@@ -1,0 +1,66 @@
+header {
+  background-color: rgb(78, 234, 246);
+  min-width: 550px;
+}
+
+.header {
+  height: 11.3rem;
+  position: relative;
+  width: 100%;
+}
+
+.headerContent {
+  align-content: center;
+  align-items: center;
+  color: rgb(41, 31, 113);
+  display: flex;
+  font-family: f Feeling Soon , sans-serif;
+  height: 100%;
+  justify-content: center;
+  right: 13.6rem;
+}
+
+.userAvatar {
+  border-radius: 100%;
+  height: 3.7rem;
+  width: 3.7rem;
+}
+
+.userInfos {
+  align-items: center;
+  display: flex;
+  gap: 1.3rem;
+}
+
+.userInfos p {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 14.4rem;
+}
+
+.userScore {
+  align-items: center;
+  display: flex;
+  gap: 1.3rem;
+  margin-right: 6.7rem;
+}
+
+@media screen and ( max-width : 600px ) {
+
+  header {
+    min-width: 250px;
+  }
+
+  .header {
+    min-height: 5rem;
+    min-width: 100px;
+  }
+
+  .headerContent {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
